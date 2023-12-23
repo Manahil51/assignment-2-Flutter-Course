@@ -55,7 +55,16 @@ main() {
 
   List<int> number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   for (int number in number.where((n) => n % 2 == 0)) print(number);
-//question # 6
+
+//question # 6: Map<String, double> mathMarks = {
+  // 'ram': 30,
+  //'mark': 32,
+  // 'harry': 88,
+  //'raj': 69,
+  //'john': 15,
+//};
+
+//Using ".removeWhere()" method remove key, value where value <= 30 then print the updated map mathMarks variable.
 
   Map<String, double> mathMarks = {
     'ram': 30,
@@ -70,6 +79,7 @@ main() {
   print(mathMarks);
 
   //question#7
+  //Q.7:Create a map with name, phone keys and store some values to it. Use where to find all keys that have length 4.
 
   Map<String, String> contactMap = {
     'maha': '1234567890',
